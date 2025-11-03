@@ -1,0 +1,56 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 02 Nov 2025 20:20:59 -0500
+Source: user-installed-packages
+Binary: user-installed-packages
+Architecture: source all
+Version: 25.11.01
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ user-installed-packages - list user installed packages
+Changes:
+ user-installed-packages (25.11.01) mx; urgency=medium
+ .
+   * Adjust polkit agent detection pattern
+   * Use pyqt6
+   * Add its-rules for xml-polkit translations
+   * Translations refresh
+Checksums-Sha1:
+ 05fbdfdd003a14700ec1a62801457124b067aad6 1717 user-installed-packages_25.11.01.dsc
+ be94c204850c0c16517ecb891c9bd1156a44b5f0 5431684 user-installed-packages_25.11.01.tar.xz
+ cd7fc0e5418b75d55ce6c0fcbcc5761d58c3d783 5165936 user-installed-packages_25.11.01_all.deb
+ e50e0604085e1e71812874a92cbd723fb7b2b621 8430 user-installed-packages_25.11.01_amd64.buildinfo
+Checksums-Sha256:
+ b0749efc897a2e5ee4fa6f06b3df8e919d681ca7cd497c99336bbeb38e59f04e 1717 user-installed-packages_25.11.01.dsc
+ 644aba44f925fd972b10b49b00389ec193141c6c44d2a90b5a6903c1f02aca95 5431684 user-installed-packages_25.11.01.tar.xz
+ 0a40f8f35d83191997066ccf2b132904a92c08e63f274052bf73273abbbf99a7 5165936 user-installed-packages_25.11.01_all.deb
+ 6c44c1f5e5ea16d0bd7ae773c061da3adb16f22e4e3d73b623215c8e7616ab5c 8430 user-installed-packages_25.11.01_amd64.buildinfo
+Files:
+ 4f3e3f828077fa12c2469f876c3edc02 1717 system optional user-installed-packages_25.11.01.dsc
+ 0e414e8728971852e12b730ef456c1ca 5431684 system optional user-installed-packages_25.11.01.tar.xz
+ 33d53698c6d780a5b66bf3b04a445cd4 5165936 system optional user-installed-packages_25.11.01_all.deb
+ 8819fbb21f4030377a65eab0ecc32106 8430 system optional user-installed-packages_25.11.01_amd64.buildinfo
+Original-Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmkIjFoTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6WatD/92r2D2N3LLVBktuANG9I5E6Db+Ozjc
+1IzT/gTec5d80xXcbegH+I+xYYCsB0emg/6byrwoZEx9QFqHWVAaQw5CpYxFVtBz
+3Mu7unjh5tDssO3mVzlhrKviAm8YcFWMeLR0sLVjvBAMCp7AGMMRylXKOLNrv4qg
+JDHgb1nfd5ElhFtY+vPAIm8EAqC0gPofwUx4xg1UiEH31bOwNNvrVdTaOAlY0+HA
+vfqe63loiZiQEBYbo0HX67mgSS6kJcmxrK9kePbOUPAc95q8yNXDp0w6TVNlkcLA
+BIdB6G82tj/gRgHbQ0B3Y1B3qmOUmww/HnJWKD+dq78QufeCj7Hqt31trIJ8F8cj
+DcKkyZsMixln6s/w1+UPZzpCTLBLlZ9fblpewO2BATisIuY7e7FstLz2I+33+sTd
+VtFKBfOP3enp1WYdlbIblPP6110SZDLuZRcQRph6n6c8ThwvhYRCt8vUKfvVbMni
+98P0POCj2jDpW3wv4oJERMGIDuG5xoFVFK6HVbngwc3tY3X2BJ+50UZqCHUy0ugu
+IpprDW18BLDWVmGMaxF5s66ysLvsDAjhCGG0TRPNRA2iShyikDNoyqd/0EZzWO7h
+1BkAjIv/QRqHbW09iZ2mQADNozIKQvcF5R5uESgdBm2WfPazPo/EICKkj3B2BOw5
+LSKbPnpyl+7JvA==
+=p1w4
+-----END PGP SIGNATURE-----
