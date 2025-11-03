@@ -17,6 +17,7 @@ merged_file = i18n.merge_file(
         output: 'org.mxlinux.user-installed-packages.policy',
         type: 'xml',
         po_dir: '..' / subdir_po,
+        data_dirs: ['../data'],
         install_dir: get_option('datadir') / 'polkit-1/actions',
         install: true,
 )

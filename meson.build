@@ -17,7 +17,7 @@ package_name    = meson.project_name()
 desktop_id      = package_name
 gettext_package = package_name
 
-subdir_po      = 'translations/po'
+subdir_po      = 'i18n/po'
 
 subdir('data')
 

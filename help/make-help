@@ -5,7 +5,7 @@
 HELPMD="help.md"
 HELPMD=$(find {.,{.,..,../..}/help}/${HELPMD}  -type f -name ${HELPMD} -print -quit 2>/dev/null)
 BASEDIR=$(realpath --relative-to=. $(dirname $HELPMD))
-TXDIR=$(realpath --relative-to=. ${BASEDIR}/../translations)
+TXDIR=$(realpath --relative-to=. ${BASEDIR}/../i18n)
 POTLIB="pot-gettext"
 
 if [ -r "${TXDIR}/${POTLIB}" ]; then
