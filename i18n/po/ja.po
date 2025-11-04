@@ -4,10 +4,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# mahmut özcan <faradundamarti@yandex.com>, 2023
-# Caner Başaran <basaran.caner@gmail.com>, 2023
-# mahmut özcan <mahmutozcan@protonmail.com>, 2023
-# Mehmet Akif 9oglu, 2023
+# fehlix, 2023
+# night1ynx <night1ynxd@gmail.com>, 2023
+# 🎈 BALLOON | FU-SEN, 2023
+# Geoff Gigg <geoffgigg@hotmail.com>, 2023
+# James Bowlin <BitJam@gmail.com>, 2023
+# green <usergreen@users.osdn.me>, 2024
 # 
 #, fuzzy
 msgid ""
@@ -16,42 +18,42 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://forum.mxlinux.org/viewforum.php?f=96\n"
 "POT-Creation-Date: 2023-03-27 20:37+0200\n"
 "PO-Revision-Date: 2023-03-20 13:51+0000\n"
-"Last-Translator: Mehmet Akif 9oglu, 2023\n"
-"Language-Team: Turkish (https://app.transifex.com/anticapitalista/teams/10162/tr/)\n"
+"Last-Translator: green <usergreen@users.osdn.me>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/anticapitalista/teams/10162/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "About"
-msgstr "Hakkında"
+msgstr "概要"
 
 msgid "Close"
-msgstr "Kapat"
+msgstr "閉じる"
 
 msgid "Help"
-msgstr "Yardım"
+msgstr "ヘルプ"
 
 msgid "OK"
-msgstr "Tamam"
+msgstr "OK"
 
 #. TRANSLATORS:
 #. The user clicks the "Save List" button to save the list of packages
 #. installed by the user.
 msgid "Save List"
-msgstr "Listeyi Kaydet"
+msgstr "リストの保存"
 
 msgid "Date:"
-msgstr "Tarih:"
+msgstr "日付："
 
 #. TRANSLATORS:
 #. The hostname of the system.
 msgid "Host:"
-msgstr "Ana bilgisayar:"
+msgstr "システムのホスト名："
 
 msgid "System:"
-msgstr "Sistem:"
+msgstr "システム："
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
@@ -59,54 +61,50 @@ msgstr "Sistem:"
 #. TRANSLATORS:
 #. The desktop entry name will be displayed within the menu.
 msgid "User Installed Packages"
-msgstr "Kullanıcının  Yüklediği Paketler"
+msgstr "ユーザインストール済みパッケージ"
 
 msgid "Package name"
-msgstr "Paket adı"
+msgstr "パッケージ名"
 
 msgid "Description"
-msgstr "Açıklama"
+msgstr "説明"
 
 msgid "List of user installed packages"
-msgstr "Kullanıcının yüklediği paketlerin listesi"
+msgstr "ユーザ自身が追加したパッケージの全一覧です。"
 
 msgid "List of unavailable packages"
-msgstr "Kullanılamayan paketlerin listesi"
+msgstr "利用不可能なパッケージの一覧"
 
 msgid "The following packages are not available or cannot be installed:"
-msgstr "Aşağıdaki paketler mevcut değil veya yüklenemez:"
+msgstr "以下のパッケージについては、利用不可能、あるいは追加できません。"
 
 msgid "MX - User Installed Packages"
-msgstr "MX - Kullanıcının Yüklediği Paketler"
+msgstr "MX - ユーザインストール済みパッケージ (UIP)"
 
 msgid ""
 "This app is designed to make it easy to reinstall packages that the user has"
 " added to the default installation and retained."
-msgstr ""
-"Bu uygulama, kullanıcının varsayılan kuruluma eklediği ve sistemde tuttuğu "
-"paketleri yeniden yüklemeyi kolaylaştırmak için tasarlanmıştır."
+msgstr "このアプリは、既定のインストール済みパッケージ以外に、ユーザが独自に追加し保存したパッケージを簡単に再インストールできるようにします。"
 
 msgid "It combines two steps:"
-msgstr "İki adımı içerir:"
+msgstr "これには、以下2つのステップを組み合わせています。"
 
 msgid "1) quickly and easily create a list of those packages"
-msgstr "1) hızlı ve kolay bir şekilde bu paketlerin bir listesini oluşturun"
+msgstr "1) 一連のパッケージ一覧を素早く簡単に作成します"
 
 msgid ""
 "2) use that list in another location to review and reinstall those packages,"
 " if still available"
-msgstr ""
-"2) bu listeyi, eğer hala mevcutsa, bu paketleri gözden geçirmek ve yeniden "
-"yüklemek için başka bir yerde kullanın"
+msgstr "2) パッケージを確認する目的で一覧表を使用したり、もし可能であれば再インストールを実行します。"
 
 msgid "Create a list of user installed packages"
-msgstr "Kullanıcı tarafından kurulan paketlerin bir listesini oluşturun"
+msgstr "ユーザ自身で追加したパッケージの一覧を作成"
 
 msgid "Open a previously saved list and install selected packages"
-msgstr "Önceden kaydedilmiş bir listeyi açın ve seçilen paketleri kurun"
+msgstr "以前に保存した一覧を開き、選択したパッケージをインストール"
 
 msgid "You have no packages installed!"
-msgstr "Yüklü paketiniz yok!"
+msgstr "パッケージはインストールしていません！"
 
 #. TRANSLATORS:
 #. There may be more than one sentence that needs to be translated.
@@ -114,163 +112,158 @@ msgstr "Yüklü paketiniz yok!"
 #. Do keep the count placeholder "%d".
 msgid "You have installed 1 package:"
 msgid_plural "You have installed %d packages:"
-msgstr[0] "1 paket kurdunuz:"
-msgstr[1] "%dpaketi kurdunuz:"
+msgstr[0] "%d 個のパッケージをインストールしています。"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of user installed packages (UIP) failed to save.
 msgid "The UIP list of packages installed by the user could not be saved"
-msgstr "Kullanıcı tarafından yüklenen paketlerin KYP listesi kaydedilemedi"
+msgstr "ユーザインストール済みパッケージ（UIP）の一覧を保存できません"
 
 msgid "No file selected."
-msgstr "Dosya seçilmedi."
+msgstr "ファイルを選択していません。"
 
 msgid "Select which packages you want to install:"
-msgstr "Yüklemek istediğiniz paketleri seçin:"
+msgstr "追加したいパッケージを選択してください"
 
 msgid "Install packages"
-msgstr "Paketleri yükleyin"
+msgstr "パッケージの追加"
 
 msgid "Missing Packages"
-msgstr "Eksik Paketler"
+msgstr "不足しているパッケージ"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of missing packages was saved under:
 msgid "[OK] UIP list of missing packages saved:"
-msgstr "[Tamam] Eksik paketlerin KYP listesi kaydedildi:"
+msgstr "[OK] 不足しているパッケージ一覧を保存"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of missing packages failed to save.
 msgid "UIP list of missing packages could not be saved."
-msgstr "Eksik paketlerin KYP listesi kaydedilemedi."
+msgstr "不足しているパッケージ一覧を保存できませんでした。"
 
 msgid "Press Enter to exit"
-msgstr "Çıkmak için Enter’a basın"
+msgstr "Enter キーを押して終了"
 
 msgid "Installing selected packages, please authenticate"
-msgstr "Seçilen paketler yükleniyor, lütfen kimlik doğrulaması yapın"
+msgstr "選択したパッケージを追加するには認証が必要です。"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The user selects a file to save the list of user installed packages (UIP).
 msgid "Select location to save file"
-msgstr "Dosyayı kaydetmek için konum seçin"
+msgstr "ファイルの保存場所を選択"
 
 msgid "File exists. Overwrite?"
-msgstr "Dosya var. Üzerine yaz?"
+msgstr "ファイルが存在します。上書きしますか？"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of user installed packages (UIP) was saved successfully under:
 msgid "[OK] UIP list saved:"
-msgstr "[Tamam] KYP listesi kaydedildi:"
+msgstr "[OK] UIP リストを保存しました"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of user installed packages (UIP) failed to save.
 msgid "UIP-list save file failed:"
-msgstr "KYP listesi dosya kaydetme başarısız oldu:"
+msgstr "UIP リストの保存に失敗しました"
 
 msgid "[ERROR]"
-msgstr "[HATA]"
+msgstr "[エラー]"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The user selects a file with user installed packages (UIP) to be read.
 msgid "Select UIP list to load"
-msgstr "Yüklemek için KYP listesi seçin"
+msgstr "読み込む UIP リストを選択"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The selected file appears not to be a valid list of user installed packages
 #. (UIP).
 msgid "Not a valid UIP-list file:"
-msgstr "Geçerli bir KYP listesi dosyası değil:"
+msgstr "有効な UIP リストのファイルではありません"
 
 #. TRANSLATORS:
 #. The selected file is directory not a regular file.
 msgid "Selected file is a directory."
-msgstr "Seçilen dosya bir dizindir."
+msgstr "選択したのはファイルではなくてディレクトリです。"
 
 #. TRANSLATORS:
 #. The selected file is not a regular (text) file.
 msgid "Not a regular file"
-msgstr "Normal bir dosya değil"
+msgstr "通常のファイルではありません"
 
 #. TRANSLATORS:
 #. The selected file is not readable file.
 msgid "File is not readable."
-msgstr "Dosya okunamıyor."
+msgstr "ファイルを読み込めません。"
 
 #. TRANSLATORS:
 #. The type of the file the user has selected: "file type"
 msgid "file type"
-msgstr "Dosya türü"
+msgstr "ファイルのタイプ"
 
 #. TRANSLATORS:
 #. The selected file is not a plain ASCII text file.
 msgid "Not a plain ASCII text file"
-msgstr "Düz bir ASCII metin dosyası değil"
+msgstr "平文 ASCII テキストファイルではありません"
 
 #. TRANSLATORS:
 #. The selected file is not a text file.
 msgid "Not a text file"
-msgstr "Metin dosyası değil"
+msgstr "テキストファイルではありません"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The selected file is not a valid UIP-list file with invalid package names.
 msgid "File contains invalid package names"
-msgstr "Dosya geçersiz paket adları içeriyor"
+msgstr "UIP リストのファイルには、無効なパッケージ名を含んでいます"
 
 #. TRANSLATORS:
 #. The selected file seems not to hold any package names.
 msgid "File contains no package names"
-msgstr "Dosya paket adı içermiyor"
+msgstr "選択したファイルには一切パッケージ名を含んでいません"
 
 msgid "Select a file"
-msgstr "Bir dosya seçin"
+msgstr "ファイルの選択"
 
 #. TRANSLATORS:
 #. The desktop entry comment will be shown within the menu.
 msgid "List user installed packages. Install packages from existing list."
-msgstr ""
-"Kullanıcının yüklediği paketleri listeleyin. Mevcut listeden paketleri "
-"kurun."
+msgstr "ユーザ自身が追加したパッケージの一覧を表示します。既存の一覧の中からパッケージを追加します。"
 
 #. TRANSLATORS:
 #. Keywords to search in the menu. Hint: Add translated keywords to existing.
 msgid "apt;install;package;uip;"
-msgstr "apt;yükle;paket;kyp;"
+msgstr "apt;APT;uip;インストール;追加;パッケージ;ユーザインストール済みパッケージ;"
 
 msgid "MX User Installed Packages"
-msgstr "MX Kullanıcının Yüklediği Paketler"
+msgstr "MX ユーザインストール済みパッケージ (UIP)"
 
 msgid "About MX User Installed Packages"
-msgstr "MX Kullanıcının Yüklediği Paketler Hakkında"
+msgstr "MX ユーザインストール済みパッケージについて"
 
 msgid "An app to list and re-install user installed packages."
-msgstr ""
-"Kullanıcının yüklediği paketleri listelemek ve yeniden yüklemek için bir "
-"uygulama."
+msgstr "ユーザ自身がシステムに追加したパッケージの一覧を表示したり、その再インストールを実行します。"
 
 msgid "Changelog"
-msgstr "Değişim günlüğü"
+msgstr "更新履歴"
 
 msgid "MX User Installed Packages Changelog"
-msgstr "MX Kullanıcının Yüklediği Paketler Değişiklik Günlüğü"
+msgstr "MX ユーザインストール済みパッケージの変更履歴"
 
 msgid "License"
-msgstr "Lisans"
+msgstr "ライセンス"
 
 msgid "MX User Installed Packages License"
-msgstr "MX Kullanıcının Yüklediği Paketler Lisansı"
+msgstr "MX ユーザインストール済みパッケージのライセンス"
 
 msgid "Authentication is required to install selected packages"
-msgstr "Seçili paketleri yüklemekiçin kimlik doğrulaması gerekiyor"
+msgstr "選択したパッケージを追加するには認証が必要です。"
 
 msgid "Install selected packages"
-msgstr "Seçili paketleri yükle"
+msgstr "選択したパッケージを追加"

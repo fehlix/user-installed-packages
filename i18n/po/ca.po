@@ -4,12 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# fehlix, 2023
-# night1ynx <night1ynxd@gmail.com>, 2023
-# 🎈 BALLOON | FU-SEN, 2023
-# Geoff Gigg <geoffgigg@hotmail.com>, 2023
-# James Bowlin <BitJam@gmail.com>, 2023
-# Green <usergreen@users.osdn.me>, 2024
+# anticapitalista <anticapitalista@riseup.net>, 2023
+# Eduard Selma <eduard@selma.cat>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -18,42 +14,42 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://forum.mxlinux.org/viewforum.php?f=96\n"
 "POT-Creation-Date: 2023-03-27 20:37+0200\n"
 "PO-Revision-Date: 2023-03-20 13:51+0000\n"
-"Last-Translator: Green <usergreen@users.osdn.me>, 2024\n"
-"Language-Team: Japanese (https://app.transifex.com/anticapitalista/teams/10162/ja/)\n"
+"Last-Translator: Eduard Selma <eduard@selma.cat>, 2023\n"
+"Language-Team: Catalan (https://app.transifex.com/anticapitalista/teams/10162/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "About"
-msgstr "概要"
+msgstr "Quant a "
 
 msgid "Close"
-msgstr "閉じる"
+msgstr "Tanca"
 
 msgid "Help"
-msgstr "ヘルプ"
+msgstr "Ajuda "
 
 msgid "OK"
-msgstr "OK"
+msgstr "D'acord"
 
 #. TRANSLATORS:
 #. The user clicks the "Save List" button to save the list of packages
 #. installed by the user.
 msgid "Save List"
-msgstr "リストの保存"
+msgstr "Desa la llista"
 
 msgid "Date:"
-msgstr "日付："
+msgstr "Data:"
 
 #. TRANSLATORS:
 #. The hostname of the system.
 msgid "Host:"
-msgstr "システムのホスト名："
+msgstr "Amfitrió:"
 
 msgid "System:"
-msgstr "システム："
+msgstr "Sistema:"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
@@ -61,50 +57,55 @@ msgstr "システム："
 #. TRANSLATORS:
 #. The desktop entry name will be displayed within the menu.
 msgid "User Installed Packages"
-msgstr "ユーザインストール済みパッケージ"
+msgstr "Paquets instal·lats per l'usuari"
 
 msgid "Package name"
-msgstr "パッケージ名"
+msgstr "Nom del paquet"
 
 msgid "Description"
-msgstr "説明"
+msgstr "Descripció "
 
 msgid "List of user installed packages"
-msgstr "ユーザ自身が追加したパッケージの全一覧です。"
+msgstr "Llista dels paquets instal·lats per l'usuari"
 
 msgid "List of unavailable packages"
-msgstr "利用不可能なパッケージの一覧"
+msgstr "Llista dels paquets no disponibles"
 
 msgid "The following packages are not available or cannot be installed:"
-msgstr "以下のパッケージについては、利用不可能、あるいは追加できません。"
+msgstr "Aquests paquets no estan disponibles o no es poden instal·lar:"
 
 msgid "MX - User Installed Packages"
-msgstr "MX - ユーザインストール済みパッケージ (UIP)"
+msgstr "MX - User Installed Packages"
 
 msgid ""
 "This app is designed to make it easy to reinstall packages that the user has"
 " added to the default installation and retained."
-msgstr "このアプリは、既定のインストール済みパッケージ以外に、ユーザが独自に追加し保存したパッケージを簡単に再インストールできるようにします。"
+msgstr ""
+"Aquesta aplicació té la finalitat de facilitar la reinstal·lació dels "
+"paquets afegits per l'usuari a una instal·lació per omissió i retinguts."
 
 msgid "It combines two steps:"
-msgstr "これには、以下2つのステップを組み合わせています。"
+msgstr "Combina dos passos:"
 
 msgid "1) quickly and easily create a list of those packages"
-msgstr "1) 一連のパッケージ一覧を素早く簡単に作成します"
+msgstr "1) crea ràpida i fàcilment una llista d'aquests paquets"
 
 msgid ""
 "2) use that list in another location to review and reinstall those packages,"
 " if still available"
-msgstr "2) パッケージを確認する目的で一覧表を使用したり、もし可能であれば再インストールを実行します。"
+msgstr ""
+"2) usa aquesta llista en una altra ubicació per revisar i instal·lar aquests"
+" paquets, si encara estan disponibles"
 
 msgid "Create a list of user installed packages"
-msgstr "ユーザ自身で追加したパッケージの一覧を作成"
+msgstr "Crea una llista dels paquets instal·lats per l'usuari"
 
 msgid "Open a previously saved list and install selected packages"
-msgstr "以前に保存した一覧を開き、選択したパッケージをインストール"
+msgstr ""
+"Obre una llista prèviament desada i instal·la els paquets seleccionats"
 
 msgid "You have no packages installed!"
-msgstr "パッケージはインストールしていません！"
+msgstr "No hi ha paquets instal·lats!"
 
 #. TRANSLATORS:
 #. There may be more than one sentence that needs to be translated.
@@ -112,158 +113,161 @@ msgstr "パッケージはインストールしていません！"
 #. Do keep the count placeholder "%d".
 msgid "You have installed 1 package:"
 msgid_plural "You have installed %d packages:"
-msgstr[0] "%d 個のパッケージをインストールしています。"
+msgstr[0] "Heu instal·lat 1 paquet:"
+msgstr[1] "Heu instal·lat %d paquets:"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of user installed packages (UIP) failed to save.
 msgid "The UIP list of packages installed by the user could not be saved"
-msgstr "ユーザインストール済みパッケージ（UIP）の一覧を保存できません"
+msgstr "No puc desar la llista UIP de paquets instal·lats per l'usuari"
 
 msgid "No file selected."
-msgstr "ファイルを選択していません。"
+msgstr "No s'ha triat cap fitxer."
 
 msgid "Select which packages you want to install:"
-msgstr "追加したいパッケージを選択してください"
+msgstr "Escolliu quins paquets voleu instal·lar:"
 
 msgid "Install packages"
-msgstr "パッケージの追加"
+msgstr "Instal·la paquets"
 
 msgid "Missing Packages"
-msgstr "不足しているパッケージ"
+msgstr "Paquets absents"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of missing packages was saved under:
 msgid "[OK] UIP list of missing packages saved:"
-msgstr "[OK] 不足しているパッケージ一覧を保存"
+msgstr "[D'acord] Llista UIP de paquets absents desada:"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of missing packages failed to save.
 msgid "UIP list of missing packages could not be saved."
-msgstr "不足しているパッケージ一覧を保存できませんでした。"
+msgstr "No puc desar la llista UIP de paquets absents."
 
 msgid "Press Enter to exit"
-msgstr "Enter キーを押して終了"
+msgstr "Premeu Retorn per sortir"
 
 msgid "Installing selected packages, please authenticate"
-msgstr "選択したパッケージを追加するには認証が必要です。"
+msgstr "Instal·lant els paquets seleccionats, si us plau, autentiqueu-vos."
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The user selects a file to save the list of user installed packages (UIP).
 msgid "Select location to save file"
-msgstr "ファイルの保存場所を選択"
+msgstr "Trieu la ubicació per desar el fitxer"
 
 msgid "File exists. Overwrite?"
-msgstr "ファイルが存在します。上書きしますか？"
+msgstr "El fitxer ja hi és. El voleu sobreescriure? "
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of user installed packages (UIP) was saved successfully under:
 msgid "[OK] UIP list saved:"
-msgstr "[OK] UIP リストを保存しました"
+msgstr "[]D'acord] Llista UIP desada:"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of user installed packages (UIP) failed to save.
 msgid "UIP-list save file failed:"
-msgstr "UIP リストの保存に失敗しました"
+msgstr "Ha fallat en desar el fitxer de la llista UIP:"
 
 msgid "[ERROR]"
-msgstr "[エラー]"
+msgstr "[ERROR]"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The user selects a file with user installed packages (UIP) to be read.
 msgid "Select UIP list to load"
-msgstr "読み込む UIP リストを選択"
+msgstr "Escolliu la llista UIP a carregar"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The selected file appears not to be a valid list of user installed packages
 #. (UIP).
 msgid "Not a valid UIP-list file:"
-msgstr "有効な UIP リストのファイルではありません"
+msgstr "No és un fitxer vàlid de llista UIP:"
 
 #. TRANSLATORS:
 #. The selected file is directory not a regular file.
 msgid "Selected file is a directory."
-msgstr "選択したのはファイルではなくてディレクトリです。"
+msgstr "El fitxer triat és un directori."
 
 #. TRANSLATORS:
 #. The selected file is not a regular (text) file.
 msgid "Not a regular file"
-msgstr "通常のファイルではありません"
+msgstr "No és un fitxer normal"
 
 #. TRANSLATORS:
 #. The selected file is not readable file.
 msgid "File is not readable."
-msgstr "ファイルを読み込めません。"
+msgstr "No es pot llegir el fitxer."
 
 #. TRANSLATORS:
 #. The type of the file the user has selected: "file type"
 msgid "file type"
-msgstr "ファイルのタイプ"
+msgstr "tipus de fitxer"
 
 #. TRANSLATORS:
 #. The selected file is not a plain ASCII text file.
 msgid "Not a plain ASCII text file"
-msgstr "平文 ASCII テキストファイルではありません"
+msgstr "No és un fitxer ASCII de text net"
 
 #. TRANSLATORS:
 #. The selected file is not a text file.
 msgid "Not a text file"
-msgstr "テキストファイルではありません"
+msgstr "No és un fitxer de text"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The selected file is not a valid UIP-list file with invalid package names.
 msgid "File contains invalid package names"
-msgstr "UIP リストのファイルには、無効なパッケージ名を含んでいます"
+msgstr "El fitxer conté noms de paquet no vàlids"
 
 #. TRANSLATORS:
 #. The selected file seems not to hold any package names.
 msgid "File contains no package names"
-msgstr "選択したファイルには一切パッケージ名を含んでいません"
+msgstr "El fitxer no conté noms de paquet"
 
 msgid "Select a file"
-msgstr "ファイルの選択"
+msgstr "Trieu un fitxer"
 
 #. TRANSLATORS:
 #. The desktop entry comment will be shown within the menu.
 msgid "List user installed packages. Install packages from existing list."
-msgstr "ユーザ自身が追加したパッケージの一覧を表示します。既存の一覧の中からパッケージを追加します。"
+msgstr ""
+"Llista paquets instal·lats per l'usuari. Instal·la paquets de la llista."
 
 #. TRANSLATORS:
 #. Keywords to search in the menu. Hint: Add translated keywords to existing.
 msgid "apt;install;package;uip;"
-msgstr "apt;APT;uip;インストール;追加;パッケージ;ユーザインストール済みパッケージ;"
+msgstr "apt;install;package;uip;paquet;"
 
 msgid "MX User Installed Packages"
-msgstr "MX ユーザインストール済みパッケージ (UIP)"
+msgstr "MX User Installed Packages"
 
 msgid "About MX User Installed Packages"
-msgstr "MX ユーザインストール済みパッケージについて"
+msgstr "Quant a MX User Installed Packages"
 
 msgid "An app to list and re-install user installed packages."
-msgstr "ユーザ自身がシステムに追加したパッケージの一覧を表示したり、その再インストールを実行します。"
+msgstr ""
+"Una aplicació per llistar i reinstal·lar paquets instal·lats per l'usuari."
 
 msgid "Changelog"
-msgstr "更新履歴"
+msgstr "Registre de canvis"
 
 msgid "MX User Installed Packages Changelog"
-msgstr "MX ユーザインストール済みパッケージの変更履歴"
+msgstr "Registre de canvis de MX User Installed Packages"
 
 msgid "License"
-msgstr "ライセンス"
+msgstr "Llicència"
 
 msgid "MX User Installed Packages License"
-msgstr "MX ユーザインストール済みパッケージのライセンス"
+msgstr "Llicència de MX User Installed Packages"
 
 msgid "Authentication is required to install selected packages"
-msgstr "選択したパッケージを追加するには認証が必要です。"
+msgstr "Cal autenticar-se per instal·lar els paquets seleccionats"
 
 msgid "Install selected packages"
-msgstr "選択したパッケージを追加"
+msgstr "Instal·la els paquets seleccionats"

@@ -1,3 +1,12 @@
+user-installed-packages (25.11.01) mx; urgency=medium
+
+  * Adjust polkit agent detection pattern
+  * Use pyqt6
+  * Add its-rules for xml-polkit translations
+  * Translations refresh
+
+ -- fehlix <fehlix@mxlinux.org>  Sun, 02 Nov 2025 20:20:59 -0500
+
 user-installed-packages (24.03.01) mx; urgency=medium
 
   * Fix list of unavailable packages

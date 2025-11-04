@@ -33,3 +33,8 @@ install_symlink(
             install_dir : get_option('libexecdir') /  package_name,
             pointing_to : about_file
 )
+install_symlink(
+            'uip',
+            install_dir : get_option('bindir') ,
+            pointing_to : package_name
+)

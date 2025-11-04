@@ -187,7 +187,7 @@ uip_list() {
                    /^:/d;                                  # remove leftover colon lines
                    /^$/d;                                  # remove empty lines" |
             grep -vF "|";                                  # remove alternative dependencies
-          } | sort -u
+          } | sort -u | grep -vw -E 'xfe|xfe-themes|xfe-i18n' 
          )
     ))
 
@@ -228,7 +228,7 @@ uip_list() {
         --title="$TITLE_LIST" --class="$UIP_CLASS" --window-icon="$UIP_ICON"
         --width=800 --height=600 --borders=20 --center
         --text-info
-        --fontname="mono"
+        #--fontname="mono"
         --text="<b>$TEXT_LIST</b>"
         "$SAVE_OPTION"
         --button="${BTN_CLOSE}"
@@ -405,7 +405,7 @@ NotUsed
             --title="$TITLE_MISSING" --class="$UIP_CLASS" --window-icon="$UIP_ICON"
             --width=800 --height=600 --borders=20 --center
             --text-info
-            --fontname="mono"
+            #--fontname="mono"
             --text="<b>$TEXT_MISSING</b>"
             --button="${BTN_SAVE}":3
             --button="${BTN_CLOSE}"
@@ -465,8 +465,9 @@ NotUsed
     INSTALL_MESSAGE=${INSTALL_MESSAGE//;/,}
 
     CMD="echo ${INSTALL_MESSAGE}; "
-    local polkit_pattern='polkit-kde-auth|polkit-gnome-au|lxqt-policykit-'
-    if [ -x /usr/bin/pkexec ] && pgrep -u $(id -u) "$polkit_pattern" >/dev/null; then
+    local polkit_pattern='polkit-(gnome|kde|mate)-authentication-agent|lxqt-policykit-agent'
+    
+    if [ -x /usr/bin/pkexec ] && pgrep -u $(id -u) -f "$polkit_pattern" >/dev/null; then
         if [ -x /usr/libexec/user-installed-packages/uip-apt-install ]; then
             CMD+="/usr/bin/pkexec /usr/libexec/user-installed-packages/uip-apt-install --ignore-missing "
         else

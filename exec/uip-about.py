@@ -26,9 +26,11 @@ import sys
 import subprocess
 from subprocess import run, DEVNULL, Popen
 import gettext
-from PyQt5 import QtGui, QtWidgets
-from PyQt5.QtGui import QIcon, QPixmap
-from PyQt5.QtWidgets import QApplication, QMessageBox, QPushButton
+
+from PyQt6 import QtGui, QtWidgets
+from PyQt6.QtGui import QIcon, QPixmap
+from PyQt6.QtWidgets import QApplication, QMessageBox, QPushButton
+
 import shutil
 
 # system
@@ -69,6 +71,7 @@ changelogTitle      = _('MX User Installed Packages Changelog')
 closeButtonText     = _('Close')
 licenseButtonText   = _('License')
 licenseViewerTitle  = _('MX User Installed Packages License')
+about_box_url       = 'https://mxlinux.org'
 
 # argv
 key_opts = ['-c', '--changelog', '-l', '--license' ]
@@ -88,11 +91,14 @@ def About(aboutBox):
     if not version:
         version = 'n/a'
 
+    dark_theme = QApplication.palette().color(QtGui.QPalette.ColorRole.Window).lightness() < 128
+    link_style = ' style="color: #58a6ff;"' if dark_theme else ''
+
     boxText = f'''
     <p align=center><b><h2>{about}</h2></b></p>
     <p align=center>Version: {version}</p>
     <p align=center><h3>{aboutText}</h3></p>
-    <p align=center><a href=https://mxlinux.org>https://mxlinux.org</a>
+    <p align=center><a href="{about_box_url}" {link_style}>{about_box_url}</a>
     <br></p><p align=center>Copyright (c) MX Linux<br /><br/></p>
     '''
 
@@ -103,9 +109,9 @@ def About(aboutBox):
     aboutBox.setWindowIcon(QtGui.QIcon.fromTheme(icon_name))
     aboutBox.setText(boxText)
 
-    changelogButton = aboutBox.addButton((changelogButtonText), QMessageBox.ActionRole)
-    licenseButton   = aboutBox.addButton((licenseButtonText)  , QMessageBox.ActionRole)
-    closeButton     = aboutBox.addButton((closeButtonText)    , QMessageBox.RejectRole)
+    changelogButton = aboutBox.addButton((changelogButtonText), QMessageBox.ButtonRole.ActionRole)
+    licenseButton   = aboutBox.addButton((licenseButtonText)  , QMessageBox.ButtonRole.ActionRole)
+    closeButton     = aboutBox.addButton((closeButtonText)    , QMessageBox.ButtonRole.RejectRole)
 
     changelogButton.setIcon(QtGui.QIcon.fromTheme("view-history"))
     licenseButton.setIcon(QtGui.QIcon.fromTheme("license"))
@@ -119,7 +125,7 @@ def About(aboutBox):
     else:
         aboutBox.setDefaultButton(closeButton)
 
-    aboutBox.exec_()
+    aboutBox.exec()
 
     if aboutBox.clickedButton() == changelogButton:
         showChangelog()
@@ -161,7 +167,7 @@ def showChangelog():
     res = run(cmd, capture_output=True, text=True).stdout
     W, H = res.strip().split()
     height = int(H)*2/3
-    width  = int(W)*3/5
+    width  = int(W)*4/10
 
     closeButton = f"{closeButtonText}!window-close"
 
@@ -184,13 +190,13 @@ def showChangelog():
           --height={height}
           --center
           --button={close}
-          --fontname=mono
+          #--fontname=mono
           --margins=7
           --borders=5
           --text-info
         """
     # substitute placeholder with yad_filler
-    y = [ x.strip() for x in yad.strip().split('\n') ]
+    y = [ x.strip() for x in yad.strip().split('\n') if not x.strip().startswith('#') ]
     yad = [ x.format(**yad_filler) for x in y ]
 
     pipe1 = Popen(['apt-get', '-qq', '-o', changelog_option, 'changelog', package_name],
