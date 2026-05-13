@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 13 May 2026 12:08:18 -0400
+Source: user-installed-packages
+Binary: user-installed-packages
+Architecture: source all
+Version: 26.05.1
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ user-installed-packages - list user installed packages
+Changes:
+ user-installed-packages (26.05.1) mx; urgency=medium
+ .
+   * Check package cache before building the install list
+     - warn and offer apt update if package cache is empty or outdated
+     - show error dialog when apt update fails, with option to continue anyway
+     - use own update stamp as fallback on systems without apt periodic stamp hook
+     - add please-wait progress dialog during package availability checks
+   * Remove redundant apt update from uip-apt-install (now handled by cache check)
+   * Remove dependency of python3-pyqt6 and xdotool
+   * Use yad to display "About" window
+   * Add --version flag
+   * Translations refresh
+Checksums-Sha1:
+ 09f468676b9d3b3214539c2c057cecd37954934a 1713 user-installed-packages_26.05.1.dsc
+ 348d801713ccbdab7d0ee07e2d1e0c6d0cce3f29 5435436 user-installed-packages_26.05.1.tar.xz
+ cadd1473b6e5a2dc199e728893d6c90772d04a0d 5166536 user-installed-packages_26.05.1_all.deb
+ 237238a919e72cc3c283e55e35c4518a2d8fac1f 8622 user-installed-packages_26.05.1_amd64.buildinfo
+Checksums-Sha256:
+ b0029bf41c47317ddbd7c5cb3168fb2c81b7c395a4fffd52ec340c2407a4bdb4 1713 user-installed-packages_26.05.1.dsc
+ 355d1c20da28f97e6ca3cf9ab1a937dcf7890f1bad76ec21255d899a704bca75 5435436 user-installed-packages_26.05.1.tar.xz
+ c7a5214d975b3e28e457239e68acc07f9d839eab844aba9642c346dd95668ec8 5166536 user-installed-packages_26.05.1_all.deb
+ bdaec301a94e091c6e8fa1c78084ec1b32c333be3e6bacee35fd857b9ee412b3 8622 user-installed-packages_26.05.1_amd64.buildinfo
+Files:
+ c156138fb186f5b8114075e75961818d 1713 system optional user-installed-packages_26.05.1.dsc
+ 8a7fe4718c611faf9de0682859f7693f 5435436 system optional user-installed-packages_26.05.1.tar.xz
+ 3b5da77bbde5d1ba7fe5fe7916d08fbc 5166536 system optional user-installed-packages_26.05.1_all.deb
+ f7a3b5249aac09d3941ce7b468251755 8622 system optional user-installed-packages_26.05.1_amd64.buildinfo
+Original-Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmoEykcTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6RsqD/9Q5uy3brc+Ss/uhBTil7FPg+4SJG9G
+3+S3ywkMXlY/gNMp9yYRrSuMkA47GpVF+gaieyDfa2Rz1HG7WPbVcZ5+eaSnDTt1
+OkBd/Huiym5kLtFPkwGaEU3fnPXViFCV2trlwJE0ttjo6UcBSeroV7VfCtOQWxSm
+67QGvR90gHz8zimZRRvDwK3+XK6WT27NHcfjIizd9bebFlB2g9pqeLPYRnwWA2vZ
+eThr+1Xos7vQtUObJf3NvxuB8VzigOZGudCFYkIGxawRbl2J6ts4wgNC6SIO5FBS
+zJcDYeXtXhZgMPTIJQ9Nf7stjVGFodl3fx6S5Ozqsst4JurwUonUHvDdh6oLb+SH
+6F/1QtQWV6YKS228rt2UPwdXXMGStVsnShBZ0u+AAcP/XyStOoJKAq29gWHi87Mm
+14ckXhlxGQGHaLXN54aejVZI6e4NrZNpoRhNdqs5AWVdececirNCVlC4Oolqqib5
+J9sKlr4QFDZ+4X22MrikIsQcndW+a9XFRFU19oJuKTJLIyBOA9yLQOimtaYNz1ux
+P5iy5Z+nnwTO0UNmL0W/H2QA86MLyzS9iyV4Hk7ohl6D53+v67kHCTvU+XasvrIC
+H7z8gS04Wo8MD4Xe6/F/iK7XK+gXTsFfyVid3ZX7dzFfcjdzlaQHpIc8WgxKuX76
+LvQRv8AudTPojw==
+=Tt2T
+-----END PGP SIGNATURE-----
