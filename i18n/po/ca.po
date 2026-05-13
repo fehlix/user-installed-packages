@@ -253,6 +253,8 @@ msgid ""
 "Package cache update failed. Check your internet connection or APT sources "
 "lists."
 msgstr ""
+"L'actualització de la memòria cau de paquets ha fallat. Comproveu la "
+"connexió a internet o les llistes de fonts d'APT."
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
@@ -353,7 +355,7 @@ msgid "Install selected packages"
 msgstr "Instal·la els paquets seleccionats"
 
 msgid "Authentication is required to update the package cache"
-msgstr ""
+msgstr "Cal autenticar-se per actualitzar la memòria cau de paquets"
 
 msgid "Update package cache"
-msgstr ""
+msgstr "Actualització de la memòria cau de paquets"

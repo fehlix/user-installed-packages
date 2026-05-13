@@ -4,15 +4,24 @@
 # part of user-installed-packages
 # to allow localized authentication messages displayed
 
-UIP_PERIODIC_DIR="/var/lib/apt/periodic"
-UIP_UPDATE_STAMP="$UIP_PERIODIC_DIR/update-stamp"
+APT_PERIODIC_DIR="/var/lib/apt/periodic"
+APT_UPDATE_STAMP="$APT_PERIODIC_DIR/update-stamp"
+APT_SUCCESS_CONF="APT::Update::Post-Invoke-Success"
 
-UIP_APT_SUCCESS_CONF="APT::Update::Post-Invoke-Success"
-UIP_UPDATE_STAMP_CONF="$UIP_APT_SUCCESS_CONF::=touch $UIP_UPDATE_STAMP 2>/dev/null || true"
+UIP_UPDATE_STAMP="/tmp/uip-$(logname)-update-stamp"
+UIP_UPDATE_STAMP_CONF="${APT_SUCCESS_CONF}::=touch ${UIP_UPDATE_STAMP} 2>/dev/null || true"
 
-if ! apt-config dump "$UIP_APT_SUCCESS_CONF" 2>/dev/null | grep -q -E "touch\s+$UIP_UPDATE_STAMP"; then
-    [ -d "$UIP_PERIODIC_DIR" ] || mkdir -p "$UIP_PERIODIC_DIR"  2>/dev/null || true
+UIP_STAMP_USED=false
+if ! apt-config dump "$APT_SUCCESS_CONF" 2>/dev/null | grep -q -E "touch\s+$APT_UPDATE_STAMP"; then
     set -- "-o" "$UIP_UPDATE_STAMP_CONF" "$@"
+    UIP_STAMP_USED=true
 fi
 
-/usr/bin/apt update  "$@"
+/usr/bin/apt update "$@"
+APT_RET=$?
+
+if $UIP_STAMP_USED && [ -f "$UIP_UPDATE_STAMP" ]; then
+    chown "$(logname 2>/dev/null):" "$UIP_UPDATE_STAMP" 2>/dev/null || true
+fi
+
+exit $APT_RET

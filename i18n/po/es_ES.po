@@ -255,6 +255,8 @@ msgid ""
 "Package cache update failed. Check your internet connection or APT sources "
 "lists."
 msgstr ""
+"No se ha podido actualizar la caché de paquetes. Compruebe su conexión a "
+"Internet o las listas de fuentes APT."
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
@@ -356,7 +358,7 @@ msgid "Install selected packages"
 msgstr "Instalar los paquetes seleccionados"
 
 msgid "Authentication is required to update the package cache"
-msgstr ""
+msgstr "Es necesario autenticarse para actualizar la caché de paquetes"
 
 msgid "Update package cache"
-msgstr ""
+msgstr "Actualizar la caché de paquetes"

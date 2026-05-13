@@ -119,6 +119,7 @@ main() {
 
     YAD=(yad
         --title="$TITLE_MAIN" --class="$UIP_CLASS" --window-icon="$UIP_ICON"
+#        --title="$TITLE_MAIN" --class="$UIP_CLASS" --window-icon=user-installed-packages
         --borders=20 --center --width=600 --height=350
         --form --separator=" "
         --text="$TEXT_MAIN" --text-align=left
@@ -130,7 +131,7 @@ main() {
         )
 
     "${YAD[@]}"   ## >/dev/null
-    exit 0
+
 }
 
 show_about() {
@@ -205,6 +206,7 @@ export -f uip_about show_about show_changelog show_license
 uip_help() {
     local dir="/usr/share/user-installed-packages"
     local help="help.html"
+    #local uip_help="/usr/share/user-installed-packages/help.html"
     local uip_help="$dir/$help"
     local language="${LANGUAGE//:/ } "
     language+="${LC_ALL%%.*} ${LC_ALL%%_*} "
@@ -702,8 +704,18 @@ uip_check_apt_cache() {
                 update_cmd="/usr/bin/pkexec apt update"
             fi
         else
-            update_cmd="sudo -k; sudo -v && sudo apt update"
+            if [ -x "${uip_apt_update}" ]; then
+                update_cmd="sudo -k; sudo -v && sudo ${uip_apt_update}"
+            else
+                update_cmd="sudo -k; sudo -v && sudo apt update"
+            fi
         fi
+
+        local apt_has_stamp_hook=false uip_update_stamp
+        apt-config dump "APT::Update::Post-Invoke-Success" 2>/dev/null \
+            | grep -qE "touch\s+/var/lib/apt/periodic/update-stamp" \
+            && apt_has_stamp_hook=true
+        uip_update_stamp="/tmp/uip-$(logname)-update-stamp"
 
         local before_update
         before_update=$(date +%s)
@@ -716,10 +728,18 @@ uip_check_apt_cache() {
                 x-terminal-emulator -e bash -c "echo $update_msg; $update_cmd; echo; echo $hold_msg; read x"
                 ;;
         esac
+
         local update_ok=false t
-        [ -f /var/lib/apt/periodic/update-stamp ] &&
-            t=$(stat -c %Y /var/lib/apt/periodic/update-stamp 2>/dev/null) &&
-            (( t > before_update )) && update_ok=true
+        if $apt_has_stamp_hook; then
+            [ -f /var/lib/apt/periodic/update-stamp ] &&
+                t=$(stat -c %Y /var/lib/apt/periodic/update-stamp 2>/dev/null) &&
+                (( t > before_update )) && update_ok=true
+        else
+            [ -f "$uip_update_stamp" ] &&
+                t=$(stat -c %Y "$uip_update_stamp" 2>/dev/null) &&
+                (( t > before_update )) && update_ok=true
+            rm -f "$uip_update_stamp" 2>/dev/null
+        fi
 
         if ! $update_ok; then
             local fail_msg

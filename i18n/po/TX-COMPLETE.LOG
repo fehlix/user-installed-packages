@@ -1,14 +1,14 @@
 # Transifex resource user-installed-packages-mx 
 # with minimum completion percent 30%
-# generated at Tue, 12 May 2026 18:12:07 -0500
+# generated at Wed, 13 May 2026 11:01:04 -0500
    Nr.		Cnt.	 Compl.		Code		Language
    ---		----	 ------		----		--------
-     1		  71	   100%    	de      	de	German
-     2		  68	    95%    	ca      	ca	Catalan; Valencian
-     3		  68	    95%    	es      	es	Spanish; Castilian
-     4		  68	    95%    	es_ES   	es	Spanish; Castilian @ Spain
-     5		  68	    95%    	nl      	nl	Dutch; Flemish
-     6		  68	    95%    	pl      	pl	Polish
+     1		  71	   100%    	ca      	ca	Catalan; Valencian
+     2		  71	   100%    	de      	de	German
+     3		  71	   100%    	es      	es	Spanish; Castilian
+     4		  71	   100%    	es_ES   	es	Spanish; Castilian @ Spain
+     5		  71	   100%    	pl      	pl	Polish
+     6		  68	    95%    	nl      	nl	Dutch; Flemish
      7		  68	    95%    	pt      	pt	Portuguese
      8		  68	    95%    	pt_BR   	pt	Portuguese @ Brazil
      9		  68	    95%    	sq      	sq	Albanian

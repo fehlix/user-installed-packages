@@ -262,6 +262,8 @@ msgid ""
 "Package cache update failed. Check your internet connection or APT sources "
 "lists."
 msgstr ""
+"Aktualizacja pamięci podręcznej pakietów się nie powiodła. Sprawdź "
+"połączenie internetowe lub listy źródeł APT."
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
@@ -364,6 +366,7 @@ msgstr "Zainstaluj wybrane pakiety"
 
 msgid "Authentication is required to update the package cache"
 msgstr ""
+"Do aktualizacji pamięci podręcznej pakietów wymagane jest uwierzytelnienie"
 
 msgid "Update package cache"
-msgstr ""
+msgstr "Zaktualizuj pamięć podręczną pakietów"
