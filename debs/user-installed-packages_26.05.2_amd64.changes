@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 19 May 2026 08:26:38 -0500
+Source: user-installed-packages
+Binary: user-installed-packages
+Architecture: source all
+Version: 26.05.2
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ user-installed-packages - list user installed packages
+Changes:
+ user-installed-packages (26.05.2) mx; urgency=medium
+ .
+   * Translations refresh
+Checksums-Sha1:
+ f87231b8f6d52dd9cb57183bd9307c39680f134a 1713 user-installed-packages_26.05.2.dsc
+ 07ba93e7cdb3b99ef82af68e1475c3f5de307b42 5435568 user-installed-packages_26.05.2.tar.xz
+ e28f6b52ac154bb3acdda1bc4453032d48856fcd 5167076 user-installed-packages_26.05.2_all.deb
+ b5dc1922e898cc399cc84894d750001779afc2fc 8622 user-installed-packages_26.05.2_amd64.buildinfo
+Checksums-Sha256:
+ d4ff66a4c52e753c5aaa24437340a716bd8106b8ef0cd7b07dc9303d674dce0b 1713 user-installed-packages_26.05.2.dsc
+ 6be2a63d722095207937709a7a7efbace75f089913eff2a4faade7f375843637 5435568 user-installed-packages_26.05.2.tar.xz
+ 898b8c597cf6a794728e85b93bdaab2b2a6f423718bcdf76d4576ed827d37583 5167076 user-installed-packages_26.05.2_all.deb
+ 132f9bddadcac25004b2db5b239c0fac049521fb1e878263564e141ba9a879d4 8622 user-installed-packages_26.05.2_amd64.buildinfo
+Files:
+ e4841b1239140f70a47c294fe9acf198 1713 system optional user-installed-packages_26.05.2.dsc
+ 3cd72a41c8c1c95c821f4f7a89c273c5 5435568 system optional user-installed-packages_26.05.2.tar.xz
+ 249b70375b781d8e78e453fe4a183536 5167076 system optional user-installed-packages_26.05.2_all.deb
+ ed3028ee273579a06df6c1ce89212817 8622 system optional user-installed-packages_26.05.2_amd64.buildinfo
+Original-Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmoMaTUTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6dsDEACifU5KsDTs8UfTPgJnEAPDrrxpe2UA
+ibUTCatUzG0PzJ9YCA5dwAQ6RUWcnaBu+3xn+WyLNAWORkJlZcyBgImkVnQOdNiM
+CcRjgyV7HxL1JTitpkTywt1zIAoSbaiyjEcvS+TcumFPw1Dad7rss76KTbnBELNq
+0zKKWw+gqE88iWEUi4YiO1J6o9rZiARM0oHSD6FUbA6TMDvAEZomMMAb0PJRBRbL
+6tAkeTRprqrSUrZWAFXL6KzDgvpBaevyIHl06+sl2FRbE+QROCMThMZUXNs5hbh8
+UkSE6GNNjodl0Iv0M9FcTzshCXlxd22J5EO3S1Zg+lM1V3LdFc5mFdWIKVq/5GiE
+MGO5sbQHnfi4CbJk5RbZD2d3BUic2h0xMcXFAVXcWBaWNaZ54qrRrX48CD3hMEe7
+9iq46xYGsBaUFVKLtgUKkFK4AohtlXYp/D0jR8Yq2nJvZBUWzEDndLAjgbf6aZFL
+bEHsBF0IYVA1OyMmXaW4/+FZCjwVibsgRt6TpPf78Pet1Afe1oYfH9FKIOxzk7e7
+SLoGkVzlQH62eMbhKFbV626/NC4d4ZAM7zmgX5+HsBPmRTO2L71vhMmM+Y9PzO62
+dnyyAgDHYYKxr3XcAwexnIeX/Z1UlhDkee5GoaX49Zl5NituWAC+ZYL4KaM70zw7
+kHpsDCyVpR2vIA==
+=GW8M
+-----END PGP SIGNATURE-----
