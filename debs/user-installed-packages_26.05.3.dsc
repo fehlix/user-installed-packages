@@ -13,27 +13,27 @@ Build-Depends: debhelper-compat (= 13), gnome-pkg-tools (>= 0.21), librsvg2-bin 
 Package-List:
  user-installed-packages deb system optional arch=all
 Checksums-Sha1:
- 635e8574d4fa51f8c7aeeb2b9140ce2a1b907e48 5439260 user-installed-packages_26.05.3.tar.xz
+ 42a549851766d2d7d06c855b7fafae3bfae7de1d 5439164 user-installed-packages_26.05.3.tar.xz
 Checksums-Sha256:
- 808ee3b63643c1f2abdb0fb8bb3b8a3e41cd7cbf554d4c7ed38b764a82fb9691 5439260 user-installed-packages_26.05.3.tar.xz
+ 34a6c92181200f88ba958b563b3a32aebf8e7a9e2a22da4491cdcb0456fa7e15 5439164 user-installed-packages_26.05.3.tar.xz
 Files:
- 985799b7e86893c431042248e27bdc1b 5439260 user-installed-packages_26.05.3.tar.xz
+ d320b495cbfceefccd505f0b3833a298 5439164 user-installed-packages_26.05.3.tar.xz
 Original-Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmoZ2SYTHGZlaGxpeEBt
-eGxpbnV4Lm9yZwAKCRAvV48brJ2b6Vv9EACiqf5wuBGGeUVFZT2kcQd689ETCaBA
-nqdYkzl/CWQ3+uA0j+LgT53um8Dys4Jlag+jLuYa7fP5hDjvL40xkpO0Fw31kck4
-F47EEVQd6WBV2j8a4wXhcvTT93coSTuaXiGAcYzTiVtGwYveUUF4DNYFSMNbJa1R
-JaRMYHWgtzvJvEj9msmFlVrUuY/+r3WsjDPWZvK12yFp5SuaTcOAvmhXK7K8CrAr
-CtjFlRb9AvF4BFFio8d8sz8qGkJmDz3QZpvSFsLxSN7lgH3pSFxjULLRkojN2FOv
-crtU4Ca9PJ7/EQ+mL+eK8VBH6VI5e9/rVhWjAnRlJ4t/Cyey7JfqQuq4nSphnnkg
-r5WmKe09k825jPPky8iVs/5NT4hcfP2QHDwH7YUY8DH6TFIKecNXDaxch91EBPTc
-ZjEEJOpXxnNr3PdSMzLGe6BNalngV0W0w3EObpmi6iEOQmJLLfCGjtyVe8zIUtzn
-tSmFHkefKsQIX718k+Ry/iPPfS3uXe+gc+VXbK3WmubyaufWEnlvIVKhQYPO9LUb
-8enejDEq9lN6vmXLdH29kJYM4lDrA7e8nnbWrKG8ylb9yzogx0F5CS9L6VeGdhNo
-KlGz6Mr2oTEY0OuaZkKXfvMtX30bjoSi+JdRdT61StP1N0OCxIz1AMDaYmCSKgw/
-LXubN76cZgH9YQ==
-=CRre
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmoaAdITHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6dr9EACSa2vku1zwA/aUBynU6Cpc+t5Y564T
+xrQDYID758qvZDxiXvj74PwIyzIZKiNURTs/KYq0NsvedpvnqFkdUAtQcCqO8xuV
+N8EHtFrZWK+ENGJztYNXOFQp9///fjgK4pQUcyxLCuXLii5k/Rq3Iogx9p7bFaKw
+SYqRZfxjIr9uAquYmDsCY5gs7UXgLPt/NAgZJ9qxTKrja5c42QNxvHhk4y5pX/Ul
+TVwCX3xWeuTZNdZwEMBOXFOqgQogZeSyLndjA/qAg7PMWXAXz/XImTOoBUkeqfZU
+3ZYQAlbjxMW4FWMo1PS9kL6dgUkL651TCqXXDz2v+I3RYgiIw+ezT6HKKNbCT+1T
+cLstTkfrQm0vC4pmpxl9OjRMBqshfcVG1xGiVm9i5WYMQj5ZB8oi3M6jJhdXABWH
+/4gokBhaOuLNOORP2l/GJLsD3uJys/qzdrwnOH9CAWDwNMhGfoHzZBZeHBwqJKsS
+Qws2PgQN+kDbpJ0C/+x7GNgJBPCASNf21zsBX3eFwFr+O0ym2oJezljzUlpIvU9W
+cFSM4mWf5vBMFdd6HaoVYQpiMZWzu9JSZKbmijP1bLnBZ4ffwuk2XqvQBSXTo7sP
+AOaC4Bhytstql7qcrKjHUnKeT3mwKauWElkp5virTvs2LQOK4Ft3t6gRox8QRZON
+DACi3px1AL44lg==
+=bAum
 -----END PGP SIGNATURE-----

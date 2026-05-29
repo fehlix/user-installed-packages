@@ -18,42 +18,43 @@ Changes:
  .
    * Fix changelog display crash on newer yad 14.x (write to tempfile, use --filename)
    * Fix icon resolution: use full path when icon file exists
-   * Fix xfce4-terminal invocation on Fluxbox (SESSION_MANAGER empty)
+   * Fix xfce4-terminal invocation on Fluxbox (SESSION_MANAGER unset)
+   * Add a sentinel file to handle non-blocking x-terminal-emulator
    * Add CLI interface: --generate, --install, --cli, --help, --version flags
    * Add bash completion for all CLI options
    * Add gettext/ngettext wrapper for automatic bad-char sanitization
    * Translations refresh
 Checksums-Sha1:
- e4b048d2ac7e373ebadab43f4cddfc5c21920534 1713 user-installed-packages_26.05.3.dsc
- 635e8574d4fa51f8c7aeeb2b9140ce2a1b907e48 5439260 user-installed-packages_26.05.3.tar.xz
- 75ee91e23fce4b9917a7cf4fbc5c9011217ff65a 5170936 user-installed-packages_26.05.3_all.deb
- bb74a69d468b385ae90b891ba8bc8518b7bcd58b 8622 user-installed-packages_26.05.3_amd64.buildinfo
+ eeac5cc04306da9c5c617b39d570d490d0cde0cd 1713 user-installed-packages_26.05.3.dsc
+ 42a549851766d2d7d06c855b7fafae3bfae7de1d 5439164 user-installed-packages_26.05.3.tar.xz
+ cc69001dc11ddd89368894babf3628a3c7cd9b76 5171104 user-installed-packages_26.05.3_all.deb
+ b121e277af0202b1ee4bfa491af3c20b053b04d7 8622 user-installed-packages_26.05.3_amd64.buildinfo
 Checksums-Sha256:
- 08c66a4103f8c92383ec39ac0b2c424e00828b4cc1f3bc71c0acceb1b76b9827 1713 user-installed-packages_26.05.3.dsc
- 808ee3b63643c1f2abdb0fb8bb3b8a3e41cd7cbf554d4c7ed38b764a82fb9691 5439260 user-installed-packages_26.05.3.tar.xz
- 6ba1ab4e2d7b7d84893306cc40af8025cfe17821387e11a977c1b607469aa057 5170936 user-installed-packages_26.05.3_all.deb
- bd9df420f5fba5ef6250162998f4143761b8cd2f203ad602459660c887d4cd40 8622 user-installed-packages_26.05.3_amd64.buildinfo
+ 90d21d14c63b8ee39cc525573f57debccaf0d0d7d98c4a5839ad66b89b3f7c3f 1713 user-installed-packages_26.05.3.dsc
+ 34a6c92181200f88ba958b563b3a32aebf8e7a9e2a22da4491cdcb0456fa7e15 5439164 user-installed-packages_26.05.3.tar.xz
+ 82990e4b8690d5778b4f0bca9c0e8a904a063a85bf5f1891b1071ac497a98982 5171104 user-installed-packages_26.05.3_all.deb
+ 7810d3a5a19f3fd3d759ac47db012d82e84aa03a577743b1784fa57b02ae40db 8622 user-installed-packages_26.05.3_amd64.buildinfo
 Files:
- 85bebb550643c6a73506f77af7004338 1713 system optional user-installed-packages_26.05.3.dsc
- 985799b7e86893c431042248e27bdc1b 5439260 system optional user-installed-packages_26.05.3.tar.xz
- 9bd1737a359f544312a3673a7042cbd1 5170936 system optional user-installed-packages_26.05.3_all.deb
- 84d94f912513f1a99797acc60c991d36 8622 system optional user-installed-packages_26.05.3_amd64.buildinfo
+ 08731b7e535e02b1134c4d753a47987a 1713 system optional user-installed-packages_26.05.3.dsc
+ d320b495cbfceefccd505f0b3833a298 5439164 system optional user-installed-packages_26.05.3.tar.xz
+ b729b1250a6fcc20e1ebaeba606dffe6 5171104 system optional user-installed-packages_26.05.3_all.deb
+ e7a79c1ec349d02e48598aaddf582865 8622 system optional user-installed-packages_26.05.3_amd64.buildinfo
 Original-Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmoZ2S8THGZlaGxpeEBt
-eGxpbnV4Lm9yZwAKCRAvV48brJ2b6W0WD/0bjONDRK3dGEhQSmwpk7wa9UPTPJwr
-Lp8bGoJXJqy1wIntqwRYbPiiBCb5D4tN6PIOCF6q3Rp7n4FqWd2SoJpWcEWGvWZM
-pnn5GM1ghLjOZxF9cYV54h4dTkCxQOo9wLdEET3PYhjUJbWASGbk6JpnltxlJa/M
-fdw6IzFlfqjht2q41qBeu6QIEK5NUR016jkFqlFs8GwFCjvLt06EfiW27Tl89Z9J
-HU2MlvInrf8n3DduilYNfxTgidYoJO9WVBDX00gUZ0FtGr6nZx+aITDEhz+s1qa3
-acWVFxZGBl2pLjWE9fulYghxyEmKQ1WE3B7sEFulpsCxqh9A0cl6MXLonxeRLq7z
-wdhVfvWJdeTy9m64W82kRg1DBO1Y6+hYcPlVu6hZppj+h3+Ujgo1mPMLPutkoHV6
-UjurFKfmCJ9s1fuDBr30E1zhXizoW5LkhqyhstKY+YuhMZg8fTtv75xR/HJN3an6
-USZ6unVShlD0l4VmJXr1WnCN32iew740wtO3r1MsOU7BSzjbcl25VEXxPLBN50Xl
-dX/31l2UJBYagZ6c/YWlj0zNKyDnX7gLlRxdTOEkr04ynNbv6n/x+Cd/B/NsGFQJ
-l/xDAWqBRxWWaSuF9urtd6sVhNR30JrJGU44f3CA4cyq7+iePRJYqfQYny96FO6d
-mDpH5RespT5+cg==
-=CXXQ
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmoaAdkTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6UlCD/9ifWmHjezEn3qDvjVPbC+JWaVR2V5V
+tvhslBnTFYSUZVekFklKrWKemVHewmCWEPmm5lQYRjCOeMvlsRoW+wxt65BGkDKt
+d2AvP0/haM0P02DIF9tzhh4S4fAg+Q5JGJmOT9ILb1WjoMVHXWCDBLhgN24+/xT3
+eNLWrdtt0S6re8+Ix9Bm02RA700ZgfPOz6+7OSjNKKBDNps4iFlQNJ2ExmI6IoRJ
+x0M7AXty8nHIkJn55EEsCY2YX9k2tdDl6mJsz+pPXKCjbtFFKJtQx2yyojxfSGci
+UUq5QeH7kFiStadC38KtJMlE59oaealg9hktOc7qS77q+BYLWeYl+oUvvFmftEeZ
+Lix7kXxaBbomKddP0BDp4ltH0OremL0lFbLj4MZIDJuBy58Gh8nRE8GkvBfT/t3e
+JqWcu9syTJ8F9Epotp09QD5GyswX8yQ8wBpbet2+BpW/e/L02VqFeSZPX5snF1c7
+q7cCZyx0/FrunjBlaVLPGeDycgbNAjLIqp2/+rYSQELQfOGRK4A/5C1RZYkfJc1s
+ObEzQZ4uS85Z/AEdDFlz046PuPPtpU4mvUTnh/OR9043rnaa0D5M9QCmLOpTrFNH
+3ytGET/zCfn7omzSpa1ryzJFjkikhDuuXKA6rp9UW27yrZpS49gIpiQ6ZucfGviM
+AKjpji+xZzrzMw==
+=8sev
 -----END PGP SIGNATURE-----
