@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: user-installed-packages\n"
 "Report-Msgid-Bugs-To: https://forum.mxlinux.org/viewforum.php?f=96\n"
-"POT-Creation-Date: 2026-06-05 02:22+0200\n"
+"POT-Creation-Date: 2026-06-05 02:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -349,11 +349,11 @@ msgstr ""
 msgid "Options:"
 msgstr ""
 
-#. TRANSLATORS: --generate and --install are literal flag names, do not translate them; FILE is a filename placeholder; a single dash (-) means write to standard output instead of a file
+#. TRANSLATORS: --generate and --install are literal flag names, do not translate them; a single dash (-) means write to standard output instead of a file
 msgid "File to write (--generate) or read (--install); use - for stdout"
 msgstr ""
 
-#. TRANSLATORS: DIR is a placeholder for a directory path; "current dir" means the folder the program was launched from
+#. TRANSLATORS: "current dir" means the folder the program was launched from
 msgid "Output directory for saved files (default: current dir)"
 msgstr ""
 

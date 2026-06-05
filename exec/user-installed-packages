@@ -1336,9 +1336,9 @@ cli_usage() {
     local _ver_desc; _ver_desc=$(gettext 'Show version')
     # TRANSLATORS: Section header for the list of available options/flags
     local _opts_hdr; _opts_hdr=$(gettext 'Options:')
-    # TRANSLATORS: --generate and --install are literal flag names, do not translate them; FILE is a filename placeholder; a single dash (-) means write to standard output instead of a file
+    # TRANSLATORS: --generate and --install are literal flag names, do not translate them; a single dash (-) means write to standard output instead of a file
     local _file_desc; _file_desc=$(gettext 'File to write (--generate) or read (--install); use - for stdout')
-    # TRANSLATORS: DIR is a placeholder for a directory path; "current dir" means the folder the program was launched from
+    # TRANSLATORS: "current dir" means the folder the program was launched from
     local _outdir_desc; _outdir_desc=$(gettext 'Output directory for saved files (default: current dir)')
     cat >&2 <<EOF
 $_usage user-installed-packages $_cmd $_opts
