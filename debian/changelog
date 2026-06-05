@@ -5,6 +5,9 @@ user-installed-packages (26.06.1) mx; urgency=medium
   * Fix working directory: cd to home when launched from / (desktop entries)
   * Fix uip_confirm: use bash string operators instead of tr for UTF-8 locale chars
   * Fix uip_confirm: show English [Y/n] when question string is not yet translated
+  * Fix file chooser: replace eval+find with mapfile
+  * Fix quote translated strings in bash -c
+  * Add -v|--version to CLI help output
   * Translations refresh
 
  -- fehlix <fehlix@mxlinux.org>  Thu, 04 Jun 2026 15:04:42 -0400
