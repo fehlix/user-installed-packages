@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: user-installed-packages\n"
 "Report-Msgid-Bugs-To: https://forum.mxlinux.org/viewforum.php?f=96\n"
-"POT-Creation-Date: 2026-06-05 01:49+0200\n"
+"POT-Creation-Date: 2026-06-05 02:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -320,6 +320,9 @@ msgstr ""
 msgid "Select a file"
 msgstr ""
 
+msgid "Usage:"
+msgstr ""
+
 #. TRANSLATORS: 'command' is a syntax placeholder meaning "one of the commands listed below"
 msgid "command"
 msgstr ""
@@ -371,9 +374,6 @@ msgstr[1] ""
 #. TRANSLATORS:
 #. The specified file does not exist. %s is the file path.
 msgid "File not found"
-msgstr ""
-
-msgid "Usage:"
 msgstr ""
 
 #. TRANSLATORS: %s is the file path.

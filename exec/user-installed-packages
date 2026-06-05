@@ -1321,6 +1321,7 @@ export -f uip_notify
 
 
 cli_usage() {
+    local _usage; _usage=$(gettext 'Usage:')
     # TRANSLATORS: 'command' is a syntax placeholder meaning "one of the commands listed below"
     local _cmd; _cmd=$(gettext 'command')
     # TRANSLATORS: '[options]' is a syntax placeholder meaning optional flags; keep the square brackets
@@ -1340,7 +1341,7 @@ cli_usage() {
     # TRANSLATORS: DIR is a placeholder for a directory path; "current dir" means the folder the program was launched from
     local _outdir_desc; _outdir_desc=$(gettext 'Output directory for saved files (default: current dir)')
     cat >&2 <<EOF
-Usage: user-installed-packages $_cmd $_opts
+$_usage user-installed-packages $_cmd $_opts
 
 $_cmds_hdr
   -g, --generate    $_gen_desc
