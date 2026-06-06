@@ -1,0 +1,63 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 06 Jun 2026 11:51:10 -0400
+Source: user-installed-packages
+Binary: user-installed-packages
+Architecture: source all
+Version: 26.06.1
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ user-installed-packages - list user installed packages
+Changes:
+ user-installed-packages (26.06.1) mx; urgency=medium
+ .
+   * Fix bash completion partial filename cycling (compgen -G -> compgen -f)
+   * Fix bash completion: one-tab directory lookahead for uip-list-*.txt files
+   * Fix working directory: cd to home when launched from / (desktop entries)
+   * Fix uip_confirm: use bash string operators instead of tr for UTF-8 locale chars
+   * Fix uip_confirm: show English [Y/n] when question string is not yet translated
+   * Fix file chooser: replace eval+find with mapfile
+   * Fix quote translated strings in bash -c
+   * Fix help: make 'Usage:', 'command', '[options]', 'Commands:', 'Options:'
+     and all descriptions translatable
+   * Add -v|--version to CLI help output
+   * Translations refresh
+Checksums-Sha1:
+ 615ec4ed7e493c751af01f472950013d8c73bd71 1713 user-installed-packages_26.06.1.dsc
+ 3168cdd16a94ae7cff81713335e0fb1e30238092 5444468 user-installed-packages_26.06.1.tar.xz
+ 0fd43510a68e27780422992a576bac092fdfcb46 5176372 user-installed-packages_26.06.1_all.deb
+ 98c28dfcae76c9f773aa2529077fe8a733721f53 8622 user-installed-packages_26.06.1_amd64.buildinfo
+Checksums-Sha256:
+ 6a63e5dc634bbd141f866893eff5904f31be3deaceb14bae0d91bf61492d93cc 1713 user-installed-packages_26.06.1.dsc
+ 0864542b195951861777a3ecb92dda2b48812d9b0543797a42106f3a60384280 5444468 user-installed-packages_26.06.1.tar.xz
+ 1dbaa319afc65ce15af6163472e34548de7451d7576fb92069ab03920904c07c 5176372 user-installed-packages_26.06.1_all.deb
+ ad1789e81c5f90f09584f45ba2e4fad8718066223b0d9036bd21628622267d37 8622 user-installed-packages_26.06.1_amd64.buildinfo
+Files:
+ 25d6e8e02b2bf34485538fe376ce6083 1713 system optional user-installed-packages_26.06.1.dsc
+ 8399dc0f2937c63200bed9edd819631f 5444468 system optional user-installed-packages_26.06.1.tar.xz
+ 9c6f0eb7d22db2b5b0a305f111f74926 5176372 system optional user-installed-packages_26.06.1_all.deb
+ 11d9c215845687e2d45b64dbe3aa9756 8622 system optional user-installed-packages_26.06.1_amd64.buildinfo
+Original-Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmokQ3kTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6exeEACsPl92nViP6x0hq3FN4ABOpZW8rdaP
+PB6IgcmG5Z92zEqAdrbHE3dSr27sEf0ajz38ag6V3QASefRjuZ43+UHEgxhKxEW9
+/q6ycZdRHKsHk6JV+16ev4f3c9B93wDFT00Vj0LEQoLxl2EpJdAwlhJ016DXqhuS
+r9wcH/XQW4cViU/6HW0aJuJLTyroikKbrC8cwp0blR1UMQKPW+oUh5lrSw+YasyD
+C8jpRg7a2/9n3gK0p/OMKYMNDh5E5OKwc9X+jmiaYU4gBUkHfTgMESAkK2Xs6oDU
+Vabjwlyz+r3jqShsPlev3JyFrPW+sYKS5n1V3eG+N49gYWgCV5Rhw1d8nkgsy/pE
+tpgJ7X8XSy/Oh8wE6HjVkb4wXkMmW2L2mEFA8jID5oCo/ZsBm6HSUiugf9zkzWnQ
+CQNBoE1GtR1Tgvc3GlRxENYbtEbUes+EB+shNX/SLzWVrkUVhIftSkCcjF5eMhV3
+gNJBDE4A3PyCGrStD4uTfTQQIquG1aJuIHDIuYxzEqQyBd+6O6VxvJVbObfL4IXW
+iCYGgMhIfjVid0nXT9gSsbZfz4hyGMoO5WSRRHGsS9fKklb6OwDEWOm7bRJcXWUK
+jmAO16EqRsJlNKTrRqC/NiZtCHGOE3bebJdHjnOhAwbvWFzb2rwUvyEuH+GMmfVD
+aAckxXsqYybLyA==
+=gwzE
+-----END PGP SIGNATURE-----
